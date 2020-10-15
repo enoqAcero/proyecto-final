@@ -1,0 +1,17 @@
+.navbar-brand{
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+}
+
+
+
+
+.jumbo-fondo {
+   background-image: url("jumbo.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: right;
+   background-color:rgba(199, 105, 244, 0);
+
+}
