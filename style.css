@@ -45,3 +45,15 @@
 .zoom:hover {
   transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+
+.bord{
+  border: gray solid 1px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+
+.formaC{
+  background-color: rgba(250, 255, 0, 0.36);
+}
