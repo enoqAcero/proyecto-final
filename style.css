@@ -19,3 +19,41 @@
    background-color:rgba(199, 105, 244, 0);
 
 }
+.exp-fondo {
+   background-image: url("exp.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: right;
+   background-color:rgba(199, 105, 244, 0);
+
+}
+
+
+.separador{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.zoom {
+  transition: transform 0.1s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.bord{
+  border: gray solid 1px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+
+.formaC{
+  background-color: rgba(250, 255, 0, 0.36);
+}
