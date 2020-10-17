@@ -57,3 +57,64 @@
 .formaC{
   background-color: rgba(250, 255, 0, 0.36);
 }
+
+
+
+.floating-shapes span {
+  display: block;
+  position: absolute;
+}
+.floating-shapes span img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.floating-shapes span:nth-child(1) {
+  left: 4.8%;
+  top: 4.5%;
+}
+.floating-shapes span:nth-child(2) {
+  left: 9.6%;
+  top: 27.2%;
+}
+.floating-shapes span:nth-child(3) {
+  left: 8.8%;
+  bottom: 16%;
+}
+.floating-shapes span:nth-child(4) {
+  left: 25%;
+  bottom: 21%;
+}
+.floating-shapes span:nth-child(5) {
+  left: 35%;
+  top: 6.6%;
+}
+.floating-shapes span:nth-child(6) {
+  left: 43%;
+  bottom: 30%;
+}
+.floating-shapes span:nth-child(7) {
+  left: 49%;
+  top: 50%;
+}
+.floating-shapes span:nth-child(8) {
+  right: 11.8%;
+  top: 33%;
+}
+.floating-shapes span:nth-child(9) {
+  right: 6%;
+  top: 10%;
+}
+.floating-shapes span:nth-child(10) {
+  right: 4.5%;
+  bottom: 33%;
+}
+
+@media screen and (max-width: 767.98px) {
+  .floating-shapes span {
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    display: none;
+  }
+}
